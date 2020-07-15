@@ -153,7 +153,7 @@
 
             if (this._firstConnection === 0) {
                 this._firstConnection = 1;
-                let ui5js = "http://localhost/SAC/saccai/socket.io.js";
+                let ui5js = "https://xkeaton.github.io/sapcustomwidgetv1/socket.io.js";
                 async function LoadLibs() {
                     try {
                         await loadScript(ui5js, _shadowRoot);
