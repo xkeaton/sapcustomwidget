@@ -418,7 +418,7 @@
                 });
             });
 
-            console.log("widgetName:" + widgetName);
+            console.log("widgetName :" + widgetName);
             var foundIndex = Ar.findIndex(x => x.id == widgetName);
             var divfinal = Ar[foundIndex].div;
 
