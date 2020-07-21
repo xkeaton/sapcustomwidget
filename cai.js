@@ -303,11 +303,11 @@
                                 this._ui_settings.state = "Success";
                                 this._ui_settings.title = "chat id " + socketid;  
                                 this._ui_settings.icon = "sap-icon://accept";
-                                this._ui_settings.subTitle = "Please copy the chat id above into the chat dialog";
+                                this._ui_settings.subTitle = "Por favor, copie el chat id en el cuadro de diálogo de chat";
                                 this._ui_settings.description = "";
                             } else {
                                 this._ui_settings.state = "Error";
-                                this._ui_settings.title = "No connection to the server";
+                                this._ui_settings.title = "No hay conexión con el servidor";
                                 this._ui_settings.icon = "sap-icon://error";
                                 this._ui_settings.subTitle = "";
                                 this._ui_settings.description = "";
@@ -333,11 +333,11 @@
                                 oModel.setProperty("/state", "Success"); 
                                 oModel.setProperty("/title", "chat id " + socketid);                            
                                 oModel.setProperty("/icon", "sap-icon://accept");
-                                oModel.setProperty("/subTitle", "Please copy the chat id above into the chat dialog");
+                                oModel.setProperty("/subTitle", "Por favor, copie el chat id en el cuadro de diálogo de chat");
                                 oModel.setProperty("/description", "");
                             } else {
                                 oModel.setProperty("/state", "Error"); 
-                                oModel.setProperty("/title", "No connection to the Bot server");                            
+                                oModel.setProperty("/title", "No hay conexión con el servidor");                            
                                 oModel.setProperty("/icon", "sap-icon://error");
                                 oModel.setProperty("/subTitle", "");
                                 oModel.setProperty("/description", "");
