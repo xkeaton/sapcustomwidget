@@ -402,7 +402,7 @@
                                     content: [
                                         new sap.m.ToolbarSpacer(),
                                         new sap.m.Button({
-                                            text: "Close",
+                                            text: "Cerrar",
                                             press: function() {
                                                 oPopover.close();
                                             }
